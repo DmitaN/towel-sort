@@ -7,8 +7,8 @@ module.exports = function towelSort(matrix) {
     }
     const lenArr = matrix.length;
     const smArr = lenArr / 2;
-    let newArr = [];
-    let result = []
+    const newArr = [];
+    const result = []
 
     let count = 1;
     matrix.forEach(el => {
